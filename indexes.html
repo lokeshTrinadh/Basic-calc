@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="indexes.css"> 
+</head>
+<body>
+ 
+<div class="calculator">
+    <div id="inputA">    
+        <label for="inputA">Input A</label><br> 
+        <input type="number" id="inputValueA"> 
+    </div>
+ 
+    <div id="inputB">
+        <label for="inputB">Input B</label><br> 
+        <input type="number" id="inputValueB"> 
+    </div>
+        
+    <div class="operation">
+        <label for="operation">Operation</label><br>
+        <input list="operations" id="operationInput"><br> 
+        <datalist id="operations">
+            <option value="Addition">Addition</option>
+            <option value="Subtraction">Subtraction</option>
+            <option value="Multiplication">Multiplication</option>        
+        </datalist><br>
+    </div>
+</div>
+ 
+<div class="Result">
+    <button onclick="calculate()" class="main-btn">Result</button>
+</div>
+ 
+<script src="indexes.js"></script>
+ 
+</body>
+</html>
+ 

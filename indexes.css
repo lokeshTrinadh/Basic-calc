@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    justify-content: center;
+    
+    
+}
+body{
+    border: green;
+    border-style: solid;
+    border-width: medium;
+    padding:20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.calculator{
+    display: flex;
+    justify-content: space-around;
+}
+.main-btn{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 420px;
+    background-color: blue;
+    color: #fff;
+    
+
+}
+.operation{
+    padding-left: 20px;
+    
+}
